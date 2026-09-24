@@ -2,9 +2,10 @@
   "name": "docker-todo-practice",
   "version": "1.0.0",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+"scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+},
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.4.0"

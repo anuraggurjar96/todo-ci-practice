@@ -12,3 +12,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Build the Docker image
         run: docker build -t todo-practice .
+      - name: Run tests inside the container
+        run: docker run --rm todo-practice npm test
